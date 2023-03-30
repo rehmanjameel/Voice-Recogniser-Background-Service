@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">VoiceRecognition</string>
+    <string name="start_listening">Start listening</string>
+    <string name="stop_listening">Stop listening</string>
+    <string name="say_something">Say</string>
+    <string name="introduction">Words</string>
+    <string name="tts_hint">Write something to speech</string>
+    <string name="repeat">Repeat please</string>
+    <string name="input_something">Please input something to speak!</string>
+    <string name="speech_not_available">Speech recognition is not available on this device. Do you want to install Google app to have speech recognition?</string>
+    <string name="permission_required">You need to grant the permission to use the microphone</string>
+    <string name="enable_google_voice_typing">Please enable Google Voice Typing to use speech recognition!</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="set_stt_langs">Set Speech To Text Language</string>
+    <string name="set_tts_voices">Set Text To Speech Voice</string>
+    <string name="no_langs">No languages are currently available on this device</string>
+    <string name="no_tts_voices">No supported voices or you\'re running on Android API &lt; 23, which does not support querying for voices.</string>
+    <string name="voicerecognition">VoiceRecognition</string>
+    <string name="saved_words">Your saved words will be shown here</string>
+    <string name="click_to_speak">Click here to speak words</string>
+    <string name="system_locale">System language</string>
+</resources>
