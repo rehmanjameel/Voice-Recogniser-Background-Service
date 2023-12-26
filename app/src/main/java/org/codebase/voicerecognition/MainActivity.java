@@ -116,7 +116,7 @@ public class MainActivity extends AppCompatActivity implements SpeechDelegate {
         checkBox = findViewById(R.id.startServiceChecked);
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O && !Settings.canDrawOverlays(this)) {
-            askPermission();
+//            askPermission();
         }
 
         // start foreground service for microphone

@@ -27,13 +27,15 @@
         android:layout_below="@id/selectLanguage"
         android:background="?attr/selectableItemBackgroundBorderless"
         android:padding="10dp"
-        android:layout_marginTop="10dp"/>
+        android:layout_marginTop="10dp"
+        android:visibility="gone"/>
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/text"
-        android:layout_above="@id/button">
+        android:layout_above="@id/button"
+        android:visibility="gone">
 
         <TextView
             android:id="@+id/savedText"
@@ -82,7 +84,8 @@
         android:layout_height="wrap_content"
         android:text="Start Service"
         android:layout_above="@id/textToSpeech"
-        android:layout_alignParentStart="true"/>
+        android:layout_alignParentStart="true"
+        android:visibility="gone"/>
 
     <ImageButton
         android:id="@+id/selectLanguage"
